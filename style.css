@@ -1,0 +1,42 @@
+
+body {
+    background: #030304;
+}
+
+* {
+    color: #bbbbaa;
+    font-family: "Roboto"
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.game {
+    width: 100%;
+    border-top-width: 2px;
+    border-top-color: #bbbbaa;
+    border-top-style: solid;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section ul {
+    width: 100%;
+}
+
+li {
+    margin: 4px;
+}
+
+.middle {
+    max-width: 580px;
+}
+
+h1 {
+    text-align: center;
+}
