@@ -20,7 +20,7 @@ section.game {
     border-top-width: 2px;
     border-top-color: #bbbbaa;
     border-top-style: solid;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,4 +64,8 @@ footer a {
 
 header {
     padding: 10px;
+}
+
+video.big {
+    padding-bottom: 16px; 
 }
