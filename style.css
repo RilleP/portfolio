@@ -1,6 +1,7 @@
 
 body {
     background: #030304;
+    margin: 0px;
 }
 
 * {
@@ -8,7 +9,7 @@ body {
     font-family: "Roboto"
 }
 
-body {
+.main_container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,6 +28,7 @@ section.game {
 
 section ul {
     width: 100%;
+    margin-top: 0px;
 }
 
 li {
@@ -39,4 +41,27 @@ li {
 
 h1 {
     text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background: #bbbbaa;
+    color: #030304;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #030304;
+}
+
+header {
+    padding: 10px;
 }
